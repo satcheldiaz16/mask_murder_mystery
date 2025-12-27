@@ -1,0 +1,48 @@
+[Greetings]
+(Oh... hello){25, 60, 30}
+(What's up){60, 60, 60}
+(It's so nice to meet you){70, 30, 70}
+(Greetings){30, 60, 50}
+(Hello){40, 50, 50}
+(Erm, hi){20, 70, 40}
+(Well hello there){65, 45, 65}
+(Nice to meet ya){100, 40, 90}
+(Who are you){10, 50, 20}
+(Hey there){80, 60, 85}
+(Good evening){45, 55, 55}
+(Salutations){35, 70, 50}
+(Howdy){85, 50, 80}
+(Hiya){90, 45, 85}
+(Pleasure to make your acquaintance){40, 40, 55}
+(Sup){75, 65, 70}
+(Yo){95, 70, 90}
+(Um... hey){18, 65, 35}
+(Hello there, friend){65, 50, 75}
+(Oh! Hi){70, 60, 80}
+(Heya){85, 55, 80}
+(Greetings and salutations){30, 50, 55}
+(Good day){45, 60, 58}
+(*nods*){5, 70, 40}
+(Hey){65, 60, 65}
+(Hi there){55, 55, 60}
+(What brings you here?){25, 70, 45}
+(What's good){70, 70, 75}
+(Long time no see){55, 60, 65}
+(Ah, hello){30, 65, 48}
+(Hi! So glad you're here){85, 50, 90}
+(Hm. Hello){15, 80, 30}
+(Well, well, well){25, 85, 35}
+(Top of the morning){55, 48, 68}
+(Hola){78, 52, 75}
+(Bonjour){48, 48, 60}
+(*awkward wave*){22, 68, 42}
+(How are you,){52, 52, 58}
+(How's it going){68, 62, 68}
+(Oh. Hi. I guess.){15, 78, 28}
+(Mmm, hello){18, 68, 35}
+(Yeah, hi){58, 72, 55}
+(What do you want){5, 88, 10}
+(Can I help you){35, 65, 48}
+(Looking for something){28, 70, 45}
+(Welcome){52, 50, 62}
+(Welcome, welcome){70, 45, 78}

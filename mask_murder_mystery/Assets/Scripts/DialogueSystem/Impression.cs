@@ -12,7 +12,7 @@ public class Impression
     public Temperament assumption;
     public float Stance() 
     {
-        return Mathf.Clamp(0, 1, Temperament.Distance(assumption, host.Personality_State()) / Temperament.maximum_distance);
+        return Mathf.Clamp(0, 1, Temperament.Distance(assumption, host.per) / Temperament.maximum_distance);
     }
     public void Recieve_Interaction(Temperament t)
     {

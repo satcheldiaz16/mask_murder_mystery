@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Security.Principal;
 public class Character : MonoBehaviour
 {
     public string nm;
@@ -10,8 +11,6 @@ public class Character : MonoBehaviour
     #region Emotional State
     public Emotion Determine_Emotional_State(string condition = "default")
     {
-        Emotion emotion = Emotion.joy;
-
         switch (condition)
         {
             case "default": return Default_Emotion();
@@ -19,6 +18,8 @@ public class Character : MonoBehaviour
             case "death": return Death_Emotion();
             case "lights": return Lights_Out_Emotion();
         }
+
+        return Emotion.joy;
     }
     public Emotion Default_Emotion()
     {
