@@ -9,6 +9,16 @@ public class Character : MonoBehaviour
     public bool surprised = false;
     public List<Impression> impressions = new List<Impression>();
     public Sprite character_icon;
+    public void Build_Character(string nm)
+    {
+        string[] parts = nm.Split(", ");
+
+        nm = parts[0];
+
+        gender = parts[1][0];
+
+        per = new Temperament(true);
+    }
     #region Emotional State
     public Emotion Determine_Emotional_State(string condition = "default")
     {
