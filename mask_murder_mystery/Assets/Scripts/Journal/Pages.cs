@@ -44,5 +44,24 @@ public class Pages : MonoBehaviour
         }
         else pages[0].gameObject.SetActive(true);
     }
+
+    public void LoadPage()
+    {
+        if (index > 0)
+        {
+            if (index == 1)
+            {
+                journal.Inventory();
+            }
+            if (index == 2)
+            {
+                journal.GuestList(characterManager.characters);
+                journal.GuestTab();
+            }
+            pages[index].gameObject.SetActive(true);
+        }
+        else pages[0].gameObject.SetActive(true);
+    }
+      
    
 }
