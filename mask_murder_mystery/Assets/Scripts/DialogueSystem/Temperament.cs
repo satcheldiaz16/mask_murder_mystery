@@ -24,6 +24,7 @@ public class Temperament
         integrity = i;
         attitude = a;
     }
+    /*
     public static Temperament Emotions_To_Temperament(float[] emotions)
     {
         float sociability = emotions[(int)Emotion.joy] - emotions[(int)Emotion.fear];
@@ -36,18 +37,28 @@ public class Temperament
 
         return temp;
     }
-    public float[] Temperament_To_Emotions()
+    
+    public float[] Temperament_To_Emotions(float scalar = 1)
     {
         float[] temp = new float[5];
-        //joy
-        temp[0] = Mathf.clamp(0f, 100f, (sociability + attitude) / 2);
         //sadness
-        temp[1] = attitude < 0 ? attitude + 100 : attitude;
+        temp[1] = (attitude < 0 ? attitude + 100 : attitude)*scalar;
         //anger
-        temp[2] = integrity < 0 ? Mathf.Abs(integrity) : 100 - integrity;
+        temp[2] = (integrity < 0 ? Mathf.Abs(integrity) : 100 - integrity)*scalar;
         //fear
-        temp[3] = sociability < 0 ? 100 + sociability : sociability;
+        temp[3] = (sociability < 0 ? 100 + sociability : sociability)*scalar;
+        //disgust
+        temp[4] = (integrity < 0 ? 100 + integrity : integrity)*scalar;
+        //joy
+        float joyA = sociability < 0 ? 100 + sociability : sociability;
+
+        float joyB = attitude < 0 ? 100 + attitude : attitude;
+
+        temp[0] = (joyA + joyB) / 2 * scalar;
+
+        return temp;
     }
+    */
     public static Temperament operator +(Temperament a, Temperament b)
     {
         return new Temperament(a.sociability + b.sociability, a.integrity + b.integrity, a.attitude + b.attitude);

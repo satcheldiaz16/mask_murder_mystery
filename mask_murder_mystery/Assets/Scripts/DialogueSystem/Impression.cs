@@ -7,6 +7,7 @@ public class Impression
     public Character host;
     public string character_name;
     public int familiarity; //how many exchanges have occured
+    public int times_surprised;
     public List<Temperament> interactions = new List<Temperament>();
     public Temperament assumption;
     public float Stance() 

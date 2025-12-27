@@ -3,38 +3,57 @@ using System.Collections.Generic;
 public class Character : MonoBehaviour
 {
     public string nm;
+    public char gender;
     public Temperament per;
-    public float[] emotions = new float[5];
-    public float[] emotional_threshold = new float[5];
     public bool surprised = false;
     public List<Impression> impressions = new List<Impression>();
-    public Temperament Emotional_Offset(float emotional_weight = .2f)
+    #region Emotional State
+    public Emotion Determine_Emotional_State(string condition = "default")
     {
-        return Temperament.Emotions_To_Temperament(emotions) * emotional_weight;
-    }
-    public Temperament Personality_State()
-    {
-        return per + Emotional_Offset();
-    }
-    public Emotion Emotional_State()
-    {
-        int strongest_emotion = -1;
+        Emotion emotion = Emotion.joy;
 
-        for(int i = 0; i < emotions.Length; i++)
+        switch (condition)
         {
-            if(emotions[i] >= emotional_threshold[i])
-            {
-                if (strongest_emotion == -1)
-                {
-                    strongest_emotion = i;
-                }
-                else if(emotions[i] > emotions[strongest_emotion])
-                {
-                    strongest_emotion = i;
-                }
-            }
+            case "default": return Default_Emotion();
+            case "conversation": return Conversation_Emotion();
+            case "death": return Death_Emotion();
+            case "lights": return Lights_Out_Emotion();
         }
-
-        return strongest_emotion == -1 ? Emotion.neutral : (Emotion)strongest_emotion;
     }
+    public Emotion Default_Emotion()
+    {
+        Emotion emotion = Emotion.joy;
+
+        if(per.sociability > 50 && per.attitude < 50) {emotion = Emotion.sadness; }
+
+        if(per.sociability < 50 && per.attitude < 50) {emotion = Emotion.fear; }
+
+        return emotion;
+    }
+    public Emotion Conversation_Emotion()
+    {
+        Emotion emotion = Emotion.joy;
+        return emotion;
+    }
+    public Emotion Death_Emotion()
+    {
+        Emotion emotion = Emotion.fear;
+
+        if(per.integrity > 50 && per.attitude > 50) {return Emotion.anger; }
+
+        if(per.integrity > 50 && per.attitude < 50) {return Emotion.anger; }
+
+        if(per.integrity < 50 && per.attitude > 50) {return Emotion.anger; }
+
+        return emotion;
+    }
+    public Emotion Lights_Out_Emotion()
+    {
+        Emotion emotion = Emotion.fear;
+
+        if(per.attitude > 50) {emotion = Emotion.surprise;}
+
+        return emotion;
+    }
+    #endregion
 }
