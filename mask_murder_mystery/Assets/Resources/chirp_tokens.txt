@@ -1,0 +1,99 @@
+[Chirps]
+(What the sigma){60, 100, 100}
+(Huh){15, 70, 45}
+(Hmm){20, 75, 48}
+(Mhm){35, 65, 52}
+(Uh-huh){40, 60, 55}
+(Yeah){55, 70, 60}
+(Yep){58, 68, 62}
+(Nah){45, 80, 40}
+(Nope){38, 82, 35}
+(Sure){48, 55, 58}
+(Whatever){25, 85, 30}
+(Fine){32, 75, 42}
+(Okay){42, 62, 52}
+(Alright){50, 65, 58}
+(Cool){65, 68, 70}
+(Nice){62, 60, 68}
+(Interesting){40, 72, 52}
+(I see){28, 68, 48}
+(Right){45, 70, 55}
+(Got it){52, 65, 60}
+(Understood){38, 72, 52}
+(Makes sense){48, 68, 58}
+(Figures){30, 78, 40}
+(Of course){35, 75, 48}
+(Obviously){22, 82, 35}
+(Clearly){32, 80, 42}
+(Indeed){38, 70, 52}
+(Quite){35, 68, 50}
+(Absolutely){58, 65, 68}
+(Totally){72, 62, 75}
+(Definitely){62, 68, 70}
+(For sure){68, 65, 72}
+(No doubt){55, 72, 65}
+(Certainly){45, 68, 58}
+(Perhaps){30, 60, 48}
+(Maybe){35, 58, 50}
+(Possibly){32, 62, 48}
+(Doubtful){20, 75, 32}
+(Unlikely){25, 72, 35}
+(I guess){28, 65, 42}
+(If you say so){18, 70, 35}
+(Sure thing){60, 62, 65}
+(You bet){70, 65, 75}
+(No way){52, 85, 45}
+(Really?){45, 70, 55}
+(Seriously?){40, 75, 48}
+(Are you sure?){32, 68, 45}
+(You don't say){25, 78, 38}
+(Is that so?){28, 72, 42}
+(Oh?){35, 65, 50}
+(Hm?){22, 68, 42}
+(What?){38, 75, 45}
+(Excuse me?){30, 70, 40}
+(Pardon?){32, 65, 45}
+(Come again?){35, 68, 48}
+(Say what?){55, 72, 58}
+(Huh? What?){42, 70, 50}
+(Wait, what?){48, 72, 52}
+(Hold on){40, 70, 48}
+(Wait){35, 68, 45}
+(Just a sec){50, 65, 55}
+(One moment){42, 62, 52}
+(Give me a minute){38, 65, 48}
+(Hang on){45, 68, 52}
+(Wow){52, 68, 65}
+(Whoa){58, 70, 68}
+(Damn){48, 82, 55}
+(Oh my){40, 62, 58}
+(Good grief){28, 72, 38}
+(For real?){62, 75, 65}
+(No kidding){55, 78, 60}
+(You're joking){42, 75, 50}
+(Can't be){35, 72, 42}
+(Unbelievable){45, 70, 52}
+(Wild){65, 75, 68}
+(Crazy){68, 78, 70}
+(Insane){62, 80, 65}
+(Nuts){60, 82, 62}
+(Yikes){38, 68, 40}
+(Oof){35, 70, 38}
+(Yowza){72, 72, 75}
+(Sheesh){42, 75, 45}
+(Geez){40, 72, 42}
+(Jeez){38, 70, 40}
+(Gosh){45, 65, 52}
+(Golly){48, 60, 55}
+(Oh boy){50, 68, 58}
+(Oh dear){32, 62, 42}
+(Oh no){28, 65, 32}
+(Uh oh){35, 68, 38}
+(Oops){42, 62, 48}
+(My bad){52, 70, 55}
+(Sorry){40, 60, 45}
+(Apologies){35, 58, 48}
+(Thanks){58, 62, 65}
+(Thank you){52, 58, 62}
+(Cheers){68, 65, 72}
+(Appreciated){48, 62, 58}

@@ -1,0 +1,83 @@
+[Surprises]
+(Wow, that surprises me!){50, 60, 70}
+(I didn't expect that!){45, 65, 65}
+(What a shock!){52, 68, 68}
+(No way!){62, 75, 72}
+(You're kidding!){58, 72, 68}
+(That's unexpected){38, 70, 58}
+(I can hardly believe it){42, 68, 62}
+(Well I'll be!){55, 65, 68}
+(Color me surprised){48, 68, 65}
+(That's a first){45, 70, 60}
+(Never would have guessed){40, 72, 58}
+(Caught me off guard){35, 68, 55}
+(Didn't see that coming){38, 70, 58}
+(Well, well!){50, 72, 62}
+(My goodness!){52, 62, 68}
+(Holy cow!){68, 75, 75}
+(Good heavens!){48, 65, 65}
+(Incredible!){65, 70, 78}
+(Remarkable!){55, 68, 72}
+(Extraordinary!){58, 72, 75}
+(Astonishing!){60, 72, 75}
+(Amazing!){70, 68, 82}
+(Astounding!){62, 70, 78}
+(Unbelievable!){65, 75, 75}
+(Mind-blowing!){72, 78, 80}
+(Shocking!){58, 75, 68}
+(Startling!){48, 72, 62}
+(How unexpected!){42, 68, 62}
+(What a turn of events!){52, 70, 68}
+(I wasn't prepared for that){32, 65, 52}
+(That's news to me){40, 68, 58}
+(First I'm hearing of it){35, 70, 52}
+(You don't say!){48, 72, 62}
+(Is that right?){38, 68, 55}
+(Really now?){42, 70, 58}
+(Fascinating!){55, 68, 72}
+(Intriguing!){50, 70, 68}
+(How curious!){45, 72, 65}
+(Well fancy that!){52, 65, 68}
+(Imagine that!){48, 68, 65}
+(Who would have thought?){40, 70, 60}
+(What are the odds?){45, 72, 62}
+(That's wild!){68, 78, 75}
+(That's insane!){65, 82, 75}
+(Out of nowhere!){52, 75, 65}
+(Took me by surprise!){50, 70, 65}
+(Caught me unawares!){42, 68, 58}
+(Bowled me over!){62, 75, 72}
+(Floored me!){60, 78, 70}
+(Stunned!){55, 75, 65}
+(Speechless!){45, 70, 58}
+(I'm shook!){65, 80, 72}
+(That's bonkers!){72, 82, 78}
+(Off the charts!){68, 78, 80}
+(Beyond belief!){58, 75, 72}
+(Defies explanation!){48, 78, 65}
+(I'm at a loss!){35, 72, 50}
+(Words fail me!){38, 70, 55}
+(I'm dumbfounded!){42, 72, 58}
+(I'm flabbergasted!){52, 75, 68}
+(I'm gobsmacked!){62, 78, 72}
+(Blown away!){70, 80, 80}
+(That's something else!){58, 72, 70}
+(Whoa there!){62, 75, 72}
+(Hold the phone!){55, 78, 68}
+(Stop the presses!){65, 80, 75}
+(You've got to be kidding me!){60, 78, 65}
+(Pull the other one!){52, 82, 60}
+(Get out of here!){68, 80, 72}
+(No shot!){70, 85, 70}
+(Impossible!){55, 82, 62}
+(Can't be true!){48, 80, 58}
+(That can't be right!){42, 78, 52}
+(Are you serious?){50, 75, 60}
+(For real?){65, 78, 70}
+(Honestly?){45, 72, 58}
+(Truth?){48, 75, 62}
+(Swear?){52, 78, 65}
+(Cross your heart?){42, 68, 58}
+(You mean it?){38, 70, 55}
+(That actually happened?){45, 72, 60}
+(What in the world?){52, 75, 62}

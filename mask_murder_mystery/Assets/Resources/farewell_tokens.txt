@@ -1,0 +1,102 @@
+[Farewells]
+(Farewell){40, 60, 45}
+(Adios){70, 50, 65}
+(Please don't speak to me again){5, 100, 5}
+(Goodbye){45, 58, 50}
+(Bye){52, 60, 58}
+(See you later){60, 62, 65}
+(See ya){68, 65, 70}
+(Later){65, 70, 68}
+(Catch you later){72, 68, 75}
+(Until next time){48, 60, 58}
+(Till we meet again){50, 58, 60}
+(Take care){55, 58, 65}
+(Be well){52, 60, 68}
+(Stay safe){48, 58, 65}
+(Be seeing you){45, 62, 58}
+(So long){55, 65, 60}
+(Cheerio){58, 55, 65}
+(Toodles){65, 52, 70}
+(Ta-ta){60, 50, 68}
+(Ciao){72, 58, 72}
+(Au revoir){50, 55, 60}
+(Sayonara){55, 60, 62}
+(Peace out){75, 68, 78}
+(Peace){70, 65, 75}
+(I'm out){62, 75, 65}
+(Gotta go){65, 68, 68}
+(Gotta run){70, 65, 70}
+(Must dash){58, 62, 65}
+(Off I go){60, 60, 68}
+(Time to go){52, 62, 60}
+(I should get going){48, 58, 58}
+(I'd better be off){45, 60, 55}
+(I'll be on my way){50, 58, 60}
+(Heading out){62, 65, 65}
+(Taking off){65, 68, 68}
+(I'm off){58, 65, 62}
+(See you around){62, 62, 65}
+(See you soon){65, 58, 70}
+(Talk to you later){60, 60, 68}
+(Speak soon){55, 58, 65}
+(Until later){48, 60, 58}
+(Catch you on the flip side){75, 70, 78}
+(Keep in touch){62, 55, 68}
+(Don't be a stranger){68, 58, 72}
+(Stay in touch){60, 58, 68}
+(Let's do this again){70, 60, 75}
+(We should do this again sometime){65, 55, 72}
+(It was nice seeing you){58, 52, 65}
+(Good seeing you){62, 58, 68}
+(Pleasure as always){55, 50, 65}
+(Always a pleasure){58, 52, 68}
+(Thanks for stopping by){65, 58, 72}
+(Thanks for coming){62, 55, 70}
+(Appreciate you coming){60, 58, 68}
+(Safe travels){52, 58, 65}
+(Have a good one){65, 60, 70}
+(Have a good day){60, 58, 68}
+(Have a nice day){58, 52, 65}
+(Have a great day){68, 55, 75}
+(Enjoy your day){62, 52, 70}
+(Good luck){55, 60, 65}
+(Best of luck){58, 58, 68}
+(All the best){60, 55, 70}
+(Wishing you well){55, 52, 68}
+(God bless){52, 55, 68}
+(Blessings){48, 58, 65}
+(Take it easy){65, 68, 70}
+(Go easy){62, 65, 68}
+(Smell ya later){78, 75, 80}
+(Later gator){80, 72, 82}
+(In a while, crocodile){75, 68, 78}
+(Aloha){68, 58, 72}
+(Good night){48, 58, 62}
+(Sleep well){52, 55, 65}
+(Sweet dreams){58, 52, 68}
+(Nighty night){62, 50, 70}
+(Off to bed){55, 62, 62}
+(Get some rest){52, 60, 65}
+(Until tomorrow){48, 58, 60}
+(See you tomorrow){60, 60, 65}
+(Bright and early){65, 58, 70}
+(Monday morning){52, 62, 58}
+(Next week){55, 60, 62}
+(This was fun){70, 60, 75}
+(Good times){72, 62, 78}
+(Fun hanging out){75, 65, 80}
+(Great catching up){68, 58, 75}
+(We'll talk soon){58, 60, 65}
+(Hit me up){72, 70, 75}
+(Text me){68, 68, 72}
+(Call me){62, 65, 68}
+(Don't forget to call){55, 60, 65}
+(Keep me posted){60, 62, 68}
+(Let me know){58, 60, 65}
+(Alright then){52, 68, 58}
+(Well then){48, 65, 55}
+(Right then){50, 68, 58}
+(Okay then){55, 65, 60}
+(I'll leave you to it){42, 62, 52}
+(I won't keep you){45, 60, 55}
+(I'll let you go){48, 58, 58}
