@@ -13,7 +13,7 @@ public class Character : MonoBehaviour
     {
         string[] parts = nm.Split(", ");
 
-        nm = parts[0];
+        this.nm = parts[0];
 
         gender = parts[1][0];
 

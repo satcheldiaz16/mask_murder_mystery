@@ -10,11 +10,14 @@ public class CharacterManager : MonoBehaviour
     public int num_characters;
     void Start()
     {
-        Generate_Character();
+
+        Generate_Characters();
     }
     public void Generate_Characters()
     {
         List<string> character_presets = Build_Character_List();
+
+        if(character_presets == null) { return; }
 
         for(int i = 0; i < num_characters; i++)
         {
@@ -35,18 +38,11 @@ public class CharacterManager : MonoBehaviour
 
         temp.Build_Character(nm);
     }
-    public List<string> Build_Character_List(string file_path = "")
+    public List<string> Build_Character_List(string file_path = "Tokens/character_presets")
     {
-        if(file_path.Equals("")) {file_path = "Tokens/character_presets.txt";}
+        string[] tokens = GameManager.instance.Get_Tokens_From_File(file_path);
 
-        if(!File.Exists(file_path)) return null;
-
-        List<string> temp = new();
-
-        using StreamReader reader = new StreamReader(file_path);
-        string line;
-        while((line = reader.ReadLine()) != null) {temp.Add(line);}
-
-        return temp;
+        if(tokens == null) { return null; }
+        else { return new List<string>(tokens); }
     }
 }

@@ -482,6 +482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mask_and_head_and_cloak_size_ref_boy_and_girl
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4457c23afe1fe44abc0479bc5621997, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -538,6 +542,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dac66052da2d9e249b97636bce49fcaa, type: 3}
       propertyPath: m_Name
       value: mask_and_head_and_cloak_size_ref
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dac66052da2d9e249b97636bce49fcaa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -596,6 +604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mask_and_head_size_ref
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f75b95add3ff7f54dace98acc709da19, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -653,11 +665,59 @@ PrefabInstance:
       propertyPath: m_Name
       value: shotgun_test
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9404b31f8568499479b3ed276a12e885, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9404b31f8568499479b3ed276a12e885, type: 3}
+--- !u!1 &1262088653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1262088655}
+  - component: {fileID: 1262088654}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1262088654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262088653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aef1937859528d448d5840774784c72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+--- !u!4 &1262088655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262088653}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.27264, y: 1.41241, z: -0.41041}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1517433778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -713,6 +773,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8073522cb9b08a44fb9bcb24c3627cee, type: 3}
       propertyPath: m_Name
       value: shotgun_fin
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8073522cb9b08a44fb9bcb24c3627cee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -775,6 +839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shotgun_fin_v2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 96c5455c1b481ee419e3488bb58b9566, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -794,7 +862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 788168596069736415, guid: 60292d4985d0e9a42aab7b37a92c3b5c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6425437767286501379, guid: 60292d4985d0e9a42aab7b37a92c3b5c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -855,3 +923,4 @@ SceneRoots:
   - {fileID: 1220114785}
   - {fileID: 1517433778}
   - {fileID: 1903507218}
+  - {fileID: 1262088655}
