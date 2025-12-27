@@ -1,0 +1,20 @@
+[Greetings]
+(...){0, 100, 0}
+(What's up){60, 60, 60}
+(It's so nice to meet you){70, 30, 70}
+(Greetings){30, 60, 50}
+(Hello){40, 50, 50}
+(Erm, hi){20, 70, 40}
+(Well hello there){
+(Oh... hello){25, 60, 30}
+(It's nice to meet you){50, 50, 50}
+(Nice to meet ya){100, 40, 90}
+(Who are you){0, 50, 20}
+
+[Chirps]
+(What the sigma){60, 100, 100}
+
+[Farewells]
+(Farewell){65, 60, 40}
+(Adios){70, 35, 60}
+(Please don't speak to me again){0, 100, 0}
