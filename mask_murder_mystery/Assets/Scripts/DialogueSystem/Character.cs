@@ -8,6 +8,7 @@ public class Character : MonoBehaviour
     public Temperament per;
     public bool surprised = false;
     public List<Impression> impressions = new List<Impression>();
+    public Sprite character_icon;
     #region Emotional State
     public Emotion Determine_Emotional_State(string condition = "default")
     {
