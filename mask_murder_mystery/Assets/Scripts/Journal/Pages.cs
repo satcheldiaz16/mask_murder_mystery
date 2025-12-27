@@ -7,6 +7,7 @@ public class Pages : MonoBehaviour
     public Image[] pages;
     public int index = 0;
     public Journal journal;
+    public CharacterManager characterManager;
     
     public void Next()
     {
@@ -18,7 +19,7 @@ public class Pages : MonoBehaviour
             }
         if (index == 2)
             {
-                journal.GuestList(null);
+                journal.GuestList(characterManager.characters);
                 journal.GuestTab();
             }
         pages[index].gameObject.SetActive(true);
@@ -36,7 +37,7 @@ public class Pages : MonoBehaviour
             }
             if (index == 2)
             {
-                journal.GuestList(null);
+                journal.GuestList(characterManager.characters);
                 journal.GuestTab();
             }
             pages[index].gameObject.SetActive(true);

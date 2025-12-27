@@ -8,7 +8,8 @@ using System.Collections.Generic;
 public class Journal : MonoBehaviour
 {
     public Pages image;
-    public TextMeshProUGUI guests;
+    public GameObject GuestsPrefab;
+    public Transform content;
     public void Update()
     {
         if (Keyboard.current.tabKey.wasPressedThisFrame)
@@ -22,11 +23,14 @@ public class Journal : MonoBehaviour
 
     }
 
-    public void GuestList(List<string> names)
+    public void GuestList(List<Character> characters)
     {
-        names = new List<string> { "John Pork", "Craig Bobbin", "Susan Pork", "Lebron", "Bob", "Joe Dirt" };
-        String list = string.Join("\n", names);
-        guests.text = list;
+        foreach (var character in characters)
+        {
+            GameObject entry = Instantiate(GuestsPrefab, content);
+            Guests components = entry.GetComponent<Guests>();
+            components.SetData(character);
+        }
     }
 
     public void Inventory()
